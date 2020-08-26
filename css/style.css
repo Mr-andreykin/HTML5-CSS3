@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#wrapper { /*подвинем на серединку*/
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 1280px;
+    height: 300px;
+    background-color: #445161;
+        padding: 0 10px 30px 20px;
+}
+
+.product-left {
+    float: left;
+    padding: 24px;
+}
+
+.product::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.product-title {
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    font-size: 59px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.product-list {
+    width: 492px;
+    height: 146px;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    color: #ffffff;
+    list-style-type: none;
+    padding-top: 24px;
+    padding-left: 0;
+}
+
+.product-list-item::before {
+    content: url('../img/check_icon.png');
+    padding-right: 14px;
+}
+
+.product-img {
+    padding-right: 50px;
+    padding-top: 50px;
+    float: right;
+}
+.about-title {
+      width: 254px;
+  height: 38px;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #445161;
+}
+
+.about-text {
+      width: 649px;
+  height: 88px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+    padding-top: 18px;
+}
+
+.about {
+      width: 1280px;
+  height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-left {
+        height: 242px;
+}
+
+.dignity {
+    width: 1280px;
+    height: 376px;
+    background-color: #d3d3d34d;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px 10px 0px 50px;
+    
+}
+
+.dignity-title {
+      width: 351px;
+  height: 36px;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #445161;
+  flex-basis: 100%;
+}
+
+.det {
+    flex-basis: 50%;
+}
